@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply font-body bg-caterpillar-sky text-caterpillar-night antialiased;
+}
+
+a {
+  @apply text-caterpillar-leaf underline decoration-dotted;
+}
